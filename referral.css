@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+    color: black;
+}
+
+h1{
+    font-weight: bold !important;
+    font-size: 25px !important;
+}
+
+p{
+    color: black;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* beginning of nav bar css */
+/* css for bootstrap nav bar works with the font of the text */
+
+
+.navbar a {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+/* Highlights the links */
+
+
+.navbar a:hover{
+    color: white !important;
+    background-color: rgba(250, 250, 210,0.2) !important;
+}
+
+.dropdown-menu a:hover{
+    background-color: rgba(250, 250, 210,0.8) !important;
+    color: black !important;
+}
+
+
+/* header for icons */
+.header-top {
+    display: block;
+    overflow: hidden;
+}
+
+
+/* styling for the social media links */
+
+.fa {
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    font-size: 30px !important;
+}
+
+.fa-facebook {
+    color: black;
+}
+
+.fa-youtube {
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+.fa-facebook:hover {
+    color: white;
+}
+
+.fa-instagram:hover {
+    color: white;
+}
+
+/* end of navbar css */
+
+
+.abtus{
+    position: relative;
+    top: 3vh;
+    background-color: rgba(250, 128, 114, 0.1);
+}
+
+.abtus p, .abtus h1{
+    font-family: 'Dancing Script', cursive;
+    color: red;
+    font-size: x-large;
+}
+
+.abtus .container{
+    width: 100%;
+}
+
+.abtus .one, .two, .three, .four{
+    border: 1px solid black;
+    height: 50vh;
+    width: 100%;
+}
+
+.abtus a:link{
+    text-decoration: none !important;
+}
+
+.one{
+    background-image: url(./photos/pexels-pixabay-51383.jpg);
+    background-size: 100%;
+}
+
+.one:hover .col{
+    color: white;
+}
+
+.two{
+    background-image: url(./photos/pexels-naim-benjelloun-2291367.jpg);
+    background-size: 100%;
+    color: white;
+}
+
+.two:hover .col{
+    color: white;
+}
+
+.three{
+    background-image: url(./photos/pexels-craig-adderley-2306281.jpg);
+    background-size: 100%;
+    color: white;
+}
+
+.three:hover .col{
+    color: white;
+}
+
+.four{
+    background-image: url(./photos/pexels-picjumbocom-225226.jpg);
+    background-size: 100%;
+    color: white;
+}
+
+.four:hover .col{
+    color: white;
+}
+
+
+/* contact page */
+.contact {
+    position: relative;
+    top: 9vh;
+    background-color: rgba(250, 128, 114, 0.8);
+    text-align: center;
+}
+
+.contact p {
+    font-size: 15px !important;
+}
+
+.contact h1 {
+    font-size: 20px !important;
+}
+
+.contact .col-sm {
+    padding: 0px !important;
+}
+
+.contact .row {
+    margin: 0px;
+}
+
+#top{
+    position: absolute;
+    bottom: 8vh;
+    right: 13vw;
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid black; */
+}
+
+#arrow{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    border-radius: 100%;
+}
+
+#top:hover{
+    background-color: rgba(250, 250, 210,0.2) !important;
+    color: white;
+}
+
+#top:hover #arrow{
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+.highlight a:hover{
+    color: white !important;
+    background-color: rgba(250, 250, 210,0.2) !important;
+}
+
+.align-self-top a{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.align-self-top h1{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.align-self-top a:hover{
+    background-color: rgba(250, 250, 210,0.2) !important;
+    color: white;
+}
+
+.align-self-top a:hover h1{
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .contact{
+        top: 20vh;
+    }
+
+    #events {
+        display: none;
+    }
+
+    .topnav a {
+        font-size: x-small;
+    }
+
+    #home {
+        margin-left: auto !important;
+        margin-right: auto;
+    }
+
+    .header-top {
+        margin-top: 2vh;
+    }
+
+    #top{
+        display: none;
+    }
+
+    .vr{
+        display: none !important;
+    }
+
+    .b, .c{
+        display: none;
+    }
+
+    .one{
+        background-size: 100%;
+        background-size: cover;
+    }
+    
+    
+    
+    .two{
+        background-size: 100%;
+        color: white;
+        background-size: cover;
+    }
+    
+    
+    .three{
+        background-size: 100%;
+        color: white;
+        background-size: cover;
+    }
+    
+    
+    
+    .four{
+        background-size: 100%;
+        color: white;
+        background-size: cover;
+    }
+
+    .abtus .one, .two, .three, .four {
+        height: 25vh;
+    }
+}
+/* end of footer page */
