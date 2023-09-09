@@ -27,7 +27,7 @@ function Navbar() {
         <Toolbar sx={{ justifyContent: "space-between" }} >
           <Link to="/contact" style={{ textDecoration: "none" }}>
             <Button color="inherit">
-              CONTACT US
+              CONTAC
             </Button>
           </Link>
 
