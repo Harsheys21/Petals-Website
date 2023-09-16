@@ -75,8 +75,8 @@ const Contact = () => {
             justifyContent="center"
         >
             <Grid container justifyContent="center" alignItems="center"> {/* Center both horizontally and vertically */}
-                <Grid container sx={1} justifyContent="center" width="48%">
-                    <Typography variant="h5" align="center">
+                <Grid container sx={1} justifyContent="center">
+                    <Typography variant="h5" align="center" style={{ marginRight: "10vw", marginLeft: "10vw" }}>
                         LET'S START PLANNING YOUR DREAM EVENT! REACH OUT TO US THROUGH THIS FORM, AND OUR DEDICATED TEAM WILL BE THRILLED TO ASSIST YOU IN BRINGING YOUR VISION TO LIFE.
                     </Typography>
                 </Grid>
