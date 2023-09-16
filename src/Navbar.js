@@ -25,7 +25,7 @@ function Navbar() {
     <Grid container>
       <AppBar position="static" textTransform="uppercase">
         <Toolbar sx={{ justifyContent: "space-between" }} >
-          <Link to="/contact" style={{ textDecoration: "none" }}> 
+          <Link to="/contact" style={{ textDecoration: "none" }}>
             <Button color="inherit">
               CONTACT US
             </Button>
