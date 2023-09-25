@@ -42,7 +42,6 @@ function ImageSlider() {
       alignItems="center"     // Vertically center the content
       justifyContent="center" // Horizontally center the content
       backgroundColor="secondary.main"
-      minHeight="75vh"
       minWidth="100%"    >
       <AutoPlaySwipeableViews index={activeStep} onChangeIndex={handleStepChange}>
         {photos.map((step, index) => (
